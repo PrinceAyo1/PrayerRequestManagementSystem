@@ -1,5 +1,7 @@
 # Prayer Request Management System
+
 A web-based application designed for churches to manage and respond to prayer requests efficiently. The system allows users to submit prayer requests, and church staff can categorise, manage, and respond to these requests via an administrative dashboard. This project also integrates AI to categorise prayer requests automatically and supports voice-based submissions through a speech-to-text feature.
+
 
 ## Table of Contents
 - [Features](#features)
