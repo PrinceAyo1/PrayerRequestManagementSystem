@@ -23,6 +23,21 @@ A web-based application designed for churches to manage and respond to prayer re
 
 ## Technology Stack
 
+| **Technology/Tool**                  | **Purpose**                          | **Free/Open Source**        |
+|--------------------------------------|--------------------------------------|-----------------------------|
+| **Node.js**                          | Backend server                       | Yes                         |
+| **Express.js**                       | Web framework                        | Yes                         |
+| **MySQL**                            | Database                             | Yes                         |
+| **Sequelize**                        | ORM for database management          | Yes                         |
+| **bcrypt.js**                        | Password encryption                  | Yes                         |
+| **JWT (JSON Web Tokens)**            | Authentication                       | Yes                         |
+| **Socket.IO**                        | Real-time communication              | Yes                         |
+| **Nodemailer**                       | Email notifications                  | Yes                         |
+| **spaCy / Hugging Face Transformers**| NLP for categorising requests        | Yes                         |
+| **Web Speech API**                   | Browser voice input                  | Yes                         |
+| **Google Cloud Speech-to-Text / Mozilla DeepSpeech** | Speech-to-text for voice prayer requests | Google Cloud (free tier) / Mozilla DeepSpeech (open source) |
+
+
 ## AI Features
 
 ## Installation
