@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 1.5em auto;
+  padding: 1em;
+}
+
+.request-form,
+.prayer-requests {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+}
+
+.request-form h2,
+.prayer-requests h2 {
+  color: #4a90e2;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1em;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab9;
+}
+
+#requestsList {
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 0.5em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
